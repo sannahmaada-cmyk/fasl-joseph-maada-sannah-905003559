@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Agency Sierra Leone - Players</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Football Agency Sierra Leone</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="players.html">Players</a></li>
+                <li><a href="matches.html">Matches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="page-header">
+        <h2>Our Players</h2>
+        <p>Meet the talented athletes we represent. From rising stars to seasoned professionals.</p>
+    </section>
+
+<section class="filters">
+    <button class="filter-btn active" data-filter="all">All Players</button>
+    <button class="filter-btn" data-filter="goalkeeper">Goalkeepers</button>
+    <button class="filter-btn" data-filter="defender">Defenders</button>
+    <button class="filter-btn" data-filter="midfielder">Midfielders</button>
+    <button class="filter-btn" data-filter="forward">Forwards</button>
+</section>
+
+    <section class="players">
+        <div class="cards">
+            <div class="card" data-player-id="1" data-position="forward" data-role="starter" data-name="John Doe" data-age="25" data-nationality="Sierra Leonean" data-club="Premier League Aspirant" data-height="185cm" data-weight="78kg" data-goals="45" data-assists="12" data-appearances="67" data-foot="Right">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\kaikamara.jpg" alt="John Doe">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Kei Kamara</h3>
+                    <p>Position: Striker<br>Age: 25<br>Club: Premier League Aspirant<br>Nationality: Sierra Leonean</p>
+                    <div class="player-stats">
+                        <span><strong>Goals:</strong> 45</span>
+                        <span><strong>Assists:</strong> 12</span>
+                    </div>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="midfielder" data-role="starter">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\mustaphabundu.jpg" alt="Player 2">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Mustapha Bundu</h3>
+                    <p>Position: Midfielder<br>Age: 22<br>Club: Rising Star<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="defender" data-role="senior">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\alhassankoroma.jpg" alt="Player 3">
+                <div class="card-content">
+                    <span class="role-badge">Senior</span>
+                    <h3>Alhassan Koroma</h3>
+                    <p>Position: Defender<br>Age: 28<br>Club: Experienced Pro<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="goalkeeper" data-role="substitute">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\augustuskargbo.jpg" alt="Player 4">
+                <div class="card-content">
+                    <span class="role-badge">Substitute</span>
+                    <h3>Augustus Kargbo</h3>
+                    <p>Position: Goalkeeper<br>Age: 24<br>Club: Elite Keeper<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="forward" data-role="starter">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\buyaturay.jpg" alt="Player 5">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Mohamed Buya Turay –</h3>
+                    <p>Position: Winger<br>Age: 26<br>Club: Speed Demon<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="forward" data-role="substitute">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\jumabah.jpg" alt="Player 6">
+                <div class="card-content">
+                    <span class="role-badge">Substitute</span>
+                    <h3>Juma Bah</h3>
+                    <p>Position: Forward<br>Age: 23<br>Club: Goal Scorer<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="goalkeeper" data-role="senior">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\emmanuelsamadia.jpg" alt="Player 7">
+                <div class="card-content">
+                    <span class="role-badge">Senior</span>
+                    <h3>Emmanuel Samadia</h3>
+                    <p>Position: Goalkeeper<br>Age: 27<br>Club: Wall of Steel<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="defender" data-role="starter">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\nathanieljalloh.jpg" alt="Player 8">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Nathaniel Jalloh</h3>
+                    <p>Position: Defender<br>Age: 24<br>Club: Iron Curtain<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="midfielder" data-role="substitute">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\abudhabidumbuya.jpg" alt="Player 9">
+                <div class="card-content">
+                    <span class="role-badge">Substitute</span>
+                    <h3>Abu Diaby Dumbuya</h3>
+                    <p>Position: Midfielder<br>Age: 26<br>Club: Playmaker<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="forward" data-role="youth">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\saidufofanah.jpg" alt="Player 10">
+                <div class="card-content">
+                    <span class="role-badge">Youth</span>
+                    <h3>Saidu Fofanah</h3>
+                    <p>Position: Forward<br>Age: 22<br>Club: Rising Talent<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="defender" data-role="senior">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\momohkamara.jpg" alt="Player 11">
+                <div class="card-content">
+                    <span class="role-badge">Senior</span>
+                    <h3>Momoh Kamara</h3>
+                    <p>Position: Defender<br>Age: 29<br>Club: Veteran Defender<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="midfielder" data-role="starter">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\samuelgandi.jpg" alt="Player 12">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Samuel Gandi</h3>
+                    <p>Position: Midfielder<br>Age: 25<br>Club: Creative Midfielder<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="forward" data-role="youth">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\alieconteh.jpg" alt="Player 13">
+                <div class="card-content">
+                    <span class="role-badge">Youth</span>
+                    <h3>Alie Conteh</h3>
+                    <p>Position: Forward<br>Age: 21<br>Club: Young Prospect<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="goalkeeper" data-role="starter">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\mohamedbangura.jpg" alt="Player 14">
+                <div class="card-content">
+                    <span class="role-badge">Starter</span>
+                    <h3>Mohamed Bangura</h3>
+                    <p>Position: Goalkeeper<br>Age: 30<br>Club: Experienced Keeper<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+            <div class="card" data-position="midfielder" data-role="youth">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\stevencaulker.jpg" alt="Player 15">
+                <div class="card-content">
+                    <span class="role-badge">Youth</span>
+                    <h3>Steven Caulke</h3>
+                    <p>Position: Midfielder<br>Age: 19<br>Club: Youth Academy<br>Nationality: Sierra Leonean</p>
+                    <a href="#" class="btn-small">View Full Profile</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-container" style="display: none;">
+            <table class="players-table">
+                <thead>
+                    <tr>
+                        <th>Player</th>
+                        <th>Position</th>
+                        <th>Age</th>
+                        <th>Club</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr data-position="forward" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,1" alt="Kei Kamara">
+                                <span>Kei Kamara</span>
+                            </div>
+                        </td>
+                        <td>Striker</td>
+                        <td>25</td>
+                        <td>Premier League Aspirant</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="midfielder" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,2" alt="Mustapha Bundu">
+                                <span>Mustapha Bundu</span>
+                            </div>
+                        </td>
+                        <td>Midfielder</td>
+                        <td>22</td>
+                        <td>Rising Star</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="defender" data-role="senior">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,3" alt="Mike Johnson">
+                                <span>Alhassan Koroma</span>
+                            </div>
+                        </td>
+                        <td>Defender</td>
+                        <td>28</td>
+                        <td>Experienced Pro</td>
+                        <td><span class="role-badge">Senior</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="goalkeeper" data-role="substitute">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,4" alt="Sarah Lee">
+                                <span>Augustus Kargbo</span>
+                            </div>
+                        </td>
+                        <td>Goalkeeper</td>
+                        <td>24</td>
+                        <td>Elite Keeper</td>
+                        <td><span class="role-badge">Substitute</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="forward" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,5" alt="David Kim">
+                                <span>Mohamed Buya Turay</span>
+                            </div>
+                        </td>
+                        <td>Winger</td>
+                        <td>26</td>
+                        <td>Speed Demon</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="forward" data-role="substitute">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,6" alt="Emma Brown">
+                                <span>Juma Bah</span>
+                            </div>
+                        </td>
+                        <td>Forward</td>
+                        <td>23</td>
+                        <td>Goal Scorer</td>
+                        <td><span class="role-badge">Substitute</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="goalkeeper" data-role="senior">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,7" alt="Ahmed Conteh">
+                                <span>Emmanuel Samadia</span>
+                            </div>
+                        </td>
+                        <td>Goalkeeper</td>
+                        <td>27</td>
+                        <td>Wall of Steel</td>
+                        <td><span class="role-badge">Senior</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="defender" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,8" alt="Mariam Bangura">
+                                <span>Nathaniel Jalloh</span>
+                            </div>
+                        </td>
+                        <td>Defender</td>
+                        <td>24</td>
+                        <td>Iron Curtain</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="midfielder" data-role="substitute">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,9" alt="Joseph Sesay">
+                                <span>Abu Diaby Dumbuya</span>
+                            </div>
+                        </td>
+                        <td>Midfielder</td>
+                        <td>26</td>
+                        <td>Playmaker</td>
+                        <td><span class="role-badge">Substitute</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="forward" data-role="youth">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,10" alt="Frank Koroma">
+                                <span>Saidu Fofanah</span>
+                            </div>
+                        </td>
+                        <td>Forward</td>
+                        <td>22</td>
+                        <td>Rising Talent</td>
+                        <td><span class="role-badge">Youth</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="defender" data-role="senior">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,11" alt="Samuel Kamara">
+                                <span>Momoh Kamara</span>
+                            </div>
+                        </td>
+                        <td>Defender</td>
+                        <td>29</td>
+                        <td>Veteran Defender</td>
+                        <td><span class="role-badge">Senior</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="midfielder" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,12" alt="Amina Jalloh">
+                                <span>Samuel Gandi</span>
+                            </div>
+                        </td>
+                        <td>Midfielder</td>
+                        <td>25</td>
+                        <td>Creative Midfielder</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="forward" data-role="youth">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,13" alt="Mohamed Fornah">
+                                <span>Alie Conteh</span>
+                            </div>
+                        </td>
+                        <td>Forward</td>
+                        <td>21</td>
+                        <td>Young Prospect</td>
+                        <td><span class="role-badge">Youth</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="goalkeeper" data-role="starter">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,14" alt="Grace Stevens">
+                                <span>Mohamed Bangura</span>
+                            </div>
+                        </td>
+                        <td>Goalkeeper</td>
+                        <td>30</td>
+                        <td>Experienced Keeper</td>
+                        <td><span class="role-badge">Starter</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                    <tr data-position="midfielder" data-role="youth">
+                        <td>
+                            <div class="table-player-info">
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,15" alt="Isabella Tucker">
+                                <span>Steven Caulker</span>
+                            </div>
+                        </td>
+                        <td>Midfielder</td>
+                        <td>19</td>
+                        <td>Youth Academy</td>
+                        <td><span class="role-badge">Youth</span></td>
+                        <td><a href="#" class="btn-small">View Profile</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Player Modal -->
+    <div id="playerModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <img id="modalPlayerImage" src="" alt="Player Image">
+                <div class="modal-player-info">
+                    <h2 id="modalPlayerName"></h2>
+                    <span id="modalPlayerRole" class="role-badge"></span>
+                </div>
+            </div>
+            <div class="modal-body">
+                <div class="modal-details">
+                    <div class="detail-item">
+                        <strong>Position:</strong> <span id="modalPlayerPosition"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Age:</strong> <span id="modalPlayerAge"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Club:</strong> <span id="modalPlayerClub"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Nationality:</strong> <span id="modalPlayerNationality"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Height:</strong> <span id="modalPlayerHeight"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Weight:</strong> <span id="modalPlayerWeight"></span>
+                    </div>
+                    <div class="detail-item">
+                        <strong>Preferred Foot:</strong> <span id="modalPlayerFoot"></span>
+                    </div>
+                </div>
+                <div class="modal-stats">
+                    <h3>Player Statistics</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-value" id="modalPlayerGoals">0</span>
+                            <span class="stat-label">Goals</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="modalPlayerAssists">0</span>
+                            <span class="stat-label">Assists</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="modalPlayerAppearances">0</span>
+                            <span class="stat-label">Appearances</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="modalPlayerCleanSheets">0</span>
+                            <span class="stat-label">Clean Sheets</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-bio">
+                    <h3>Biography</h3>
+                    <p id="modalPlayerBio">This talented player has shown exceptional skills on the field and is committed to representing Sierra Leone with pride. With a passion for football and dedication to excellence, they continue to develop their abilities and contribute to the team's success.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Football Agency Sierra Leone. All rights reserved.</p>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
