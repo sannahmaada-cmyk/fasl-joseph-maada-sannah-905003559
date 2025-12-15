@@ -1,4 +1,4 @@
-[contact.html](https://github.com/user-attachments/files/24106980/contact.html)[about.html](https://github.com/user-attachments/files/24106978/about.html)[matches.html](https://github.com/user-attachments/files/24106971/matches.html)[players.html](https://github.com/user-attachments/files/24106961/players.html)[index.html](https://github.com/user-attachments/files/24106959/index.html)[about.html](https://github.com/user-attachments/files/24048257/about.html)[about.html](https://github.com/user-attachments/files/24048223/about.html)[matches.html](https://github.com/user-attachments/files/24048210/matches.html)# fasl-joseph-maada-sannah-905003559
+[script.js](https://github.com/user-attachments/files/24167188/script.js)[styles.css](https://github.com/user-attachments/files/24167150/styles.css)[about.html](https://github.com/user-attachments/files/24167079/about.html)[matches.html](https://github.com/user-attachments/files/24167010/matches.html)[contact.html](https://github.com/user-attachments/files/24106980/contact.html)[about.html](https://github.com/user-attachments/files/24106978/about.html)[matches.html](https://github.com/user-attachments/files/24106971/matches.html)[players.html](https://github.com/user-attachments/files/24106961/players.html)[index.html](https://github.com/user-attachments/files/24106959/index.html)[about.html](https://github.com/user-attachments/files/24048257/about.html)[about.html](https://github.com/user-attachments/files/24048223/about.html)[matches.html](https://github.com/user-attachments/files/24048210/matches.html)# fasl-joseph-maada-sannah-905003559
 Web Design Assignment 1 &amp; 2
 
 
@@ -1104,10 +1104,13 @@ w Profile</a></td>
 ## CSS CODE
 
 
-
+## Assignment 3
 ## FINAL PROJECT
+
+
 ## HOME PAGE
-[Up<!DOCTYPE html>
+[index.html](https://github.com/user-attachments/files/24166959/index.html)
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1145,7 +1148,7 @@ w Profile</a></td>
             </div>
             <div class="hero-image">
                 <!-- Hero image: Place your main hero image here, e.g., assets/img/hero.jpg -->
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\Squad.jpg" alt="Football Players">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\teamphoto.jpg" alt="Football Players">
             </div>
         </div>
     </section>
@@ -1154,20 +1157,20 @@ w Profile</a></td>
         <h2>Player Highlights</h2>
         <div class="cards">
             <div class="card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p1.jpg" alt="Player 1">
-                <h3>John Turay</h3>
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\kaikamara.jpg" alt="Player 1">
+                <h3>Kai Kamara</h3>
                 <p>Striker | 25 years | Premier League Aspirant</p>
                 <a href="players.html" class="btn-small">View Profile</a>
             </div>
             <div class="card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p5.jpg" alt="Player 2">
-                <h3>Jark Smith</h3>
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\mustaphabundu.jpg" alt="Player 2">
+                <h3>Mustapha Bundu</h3>
                 <p>Midfielder | 22 years | Rising Star</p>
                 <a href="players.html" class="btn-small">View Profile</a>
             </div>
             <div class="card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p6.jpg" alt="Player 3">
-                <h3>Mike Johnson</h3>
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\alhassankoroma.jpg" alt="Player 3">
+                <h3>Alhassan Koroma</h3>
                 <p>Defender | 28 years | Experienced Pro</p>
                 <a href="players.html" class="btn-small">View Profile</a>
             </div>
@@ -1206,10 +1209,12 @@ w Profile</a></td>
     <script src="script.js"></script>
 </body>
 </html>
-loading index.html…]()
+
 
 ## PLAYERS PAGE
-[U<!DOCTYPE html>
+
+[players.html](https://github.com/user-attachments/files/24166992/players.html)
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1254,10 +1259,10 @@ loading index.html…]()
     <section class="players">
         <div class="cards">
             <div class="card" data-player-id="1" data-position="forward" data-role="starter" data-name="John Doe" data-age="25" data-nationality="Sierra Leonean" data-club="Premier League Aspirant" data-height="185cm" data-weight="78kg" data-goals="45" data-assists="12" data-appearances="67" data-foot="Right">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p1.jpg" alt="John Doe">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\kaikamara.jpg" alt="John Doe">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>John Turay</h3>
+                    <h3>Kei Kamara</h3>
                     <p>Position: Striker<br>Age: 25<br>Club: Premier League Aspirant<br>Nationality: Sierra Leonean</p>
                     <div class="player-stats">
                         <span><strong>Goals:</strong> 45</span>
@@ -1267,127 +1272,127 @@ loading index.html…]()
                 </div>
             </div>
             <div class="card" data-position="midfielder" data-role="starter">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p2.jpg" alt="Player 2">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\mustaphabundu.jpg" alt="Player 2">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>Jark Smith</h3>
+                    <h3>Mustapha Bundu</h3>
                     <p>Position: Midfielder<br>Age: 22<br>Club: Rising Star<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="defender" data-role="senior">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p3.jpg" alt="Player 3">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\alhassankoroma.jpg" alt="Player 3">
                 <div class="card-content">
                     <span class="role-badge">Senior</span>
-                    <h3>Mike Johnson</h3>
+                    <h3>Alhassan Koroma</h3>
                     <p>Position: Defender<br>Age: 28<br>Club: Experienced Pro<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="goalkeeper" data-role="substitute">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p4.jpg" alt="Player 4">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\augustuskargbo.jpg" alt="Player 4">
                 <div class="card-content">
                     <span class="role-badge">Substitute</span>
-                    <h3>Sallah Leo</h3>
+                    <h3>Augustus Kargbo</h3>
                     <p>Position: Goalkeeper<br>Age: 24<br>Club: Elite Keeper<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="forward" data-role="starter">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p5.jpg" alt="Player 5">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\buyaturay.jpg" alt="Player 5">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>David Kim</h3>
+                    <h3>Mohamed Buya Turay –</h3>
                     <p>Position: Winger<br>Age: 26<br>Club: Speed Demon<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="forward" data-role="substitute">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p6.jpg" alt="Player 6">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\jumabah.jpg" alt="Player 6">
                 <div class="card-content">
                     <span class="role-badge">Substitute</span>
-                    <h3>Emmanuel Brown</h3>
+                    <h3>Juma Bah</h3>
                     <p>Position: Forward<br>Age: 23<br>Club: Goal Scorer<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="goalkeeper" data-role="senior">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p7.jpg" alt="Player 7">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\emmanuelsamadia.jpg" alt="Player 7">
                 <div class="card-content">
                     <span class="role-badge">Senior</span>
-                    <h3>Ahmed Conteh</h3>
+                    <h3>Emmanuel Samadia</h3>
                     <p>Position: Goalkeeper<br>Age: 27<br>Club: Wall of Steel<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="defender" data-role="starter">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p8.jpg" alt="Player 8">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\nathanieljalloh.jpg" alt="Player 8">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>Mario Bangura</h3>
+                    <h3>Nathaniel Jalloh</h3>
                     <p>Position: Defender<br>Age: 24<br>Club: Iron Curtain<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="midfielder" data-role="substitute">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p9.jpg" alt="Player 9">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\abudhabidumbuya.jpg" alt="Player 9">
                 <div class="card-content">
                     <span class="role-badge">Substitute</span>
-                    <h3>Joseph Sesay</h3>
+                    <h3>Abu Diaby Dumbuya</h3>
                     <p>Position: Midfielder<br>Age: 26<br>Club: Playmaker<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="forward" data-role="youth">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p10.jpg" alt="Player 10">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\saidufofanah.jpg" alt="Player 10">
                 <div class="card-content">
                     <span class="role-badge">Youth</span>
-                    <h3>Frank Koroma</h3>
+                    <h3>Saidu Fofanah</h3>
                     <p>Position: Forward<br>Age: 22<br>Club: Rising Talent<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="defender" data-role="senior">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p11.jpg" alt="Player 11">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\momohkamara.jpg" alt="Player 11">
                 <div class="card-content">
                     <span class="role-badge">Senior</span>
-                    <h3>Samuel Kamara</h3>
+                    <h3>Momoh Kamara</h3>
                     <p>Position: Defender<br>Age: 29<br>Club: Veteran Defender<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="midfielder" data-role="starter">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p12.jpg" alt="Player 12">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\samuelgandi.jpg" alt="Player 12">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>Amadu Jalloh</h3>
+                    <h3>Samuel Gandi</h3>
                     <p>Position: Midfielder<br>Age: 25<br>Club: Creative Midfielder<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="forward" data-role="youth">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p13.jpg" alt="Player 13">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\alieconteh.jpg" alt="Player 13">
                 <div class="card-content">
                     <span class="role-badge">Youth</span>
-                    <h3>Mohamed Fornah</h3>
+                    <h3>Alie Conteh</h3>
                     <p>Position: Forward<br>Age: 21<br>Club: Young Prospect<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="goalkeeper" data-role="starter">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p14.jpg" alt="Player 14">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\mohamedbangura.jpg" alt="Player 14">
                 <div class="card-content">
                     <span class="role-badge">Starter</span>
-                    <h3>Joe Stevens</h3>
+                    <h3>Mohamed Bangura</h3>
                     <p>Position: Goalkeeper<br>Age: 30<br>Club: Experienced Keeper<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
             </div>
             <div class="card" data-position="midfielder" data-role="youth">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\p15.jpg" alt="Player 15">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\stevencaulker.jpg" alt="Player 15">
                 <div class="card-content">
                     <span class="role-badge">Youth</span>
-                    <h3>Bob Tucker</h3>
+                    <h3>Steven Caulke</h3>
                     <p>Position: Midfielder<br>Age: 19<br>Club: Youth Academy<br>Nationality: Sierra Leonean</p>
                     <a href="#" class="btn-small">View Full Profile</a>
                 </div>
@@ -1410,8 +1415,8 @@ loading index.html…]()
                     <tr data-position="forward" data-role="starter">
                         <td>
                             <div class="table-player-info">
-                                <img src="https://source.unsplash.com/random/50x50/?football,player,1" alt="John Doe">
-                                <span>John Turay</span>
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,1" alt="Kei Kamara">
+                                <span>Kei Kamara</span>
                             </div>
                         </td>
                         <td>Striker</td>
@@ -1423,8 +1428,8 @@ loading index.html…]()
                     <tr data-position="midfielder" data-role="starter">
                         <td>
                             <div class="table-player-info">
-                                <img src="https://source.unsplash.com/random/50x50/?football,player,2" alt="Jane Smith">
-                                <span>Jark Smith</span>
+                                <img src="https://source.unsplash.com/random/50x50/?football,player,2" alt="Mustapha Bundu">
+                                <span>Mustapha Bundu</span>
                             </div>
                         </td>
                         <td>Midfielder</td>
@@ -1437,7 +1442,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,3" alt="Mike Johnson">
-                                <span>Mike Johnson</span>
+                                <span>Alhassan Koroma</span>
                             </div>
                         </td>
                         <td>Defender</td>
@@ -1450,7 +1455,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,4" alt="Sarah Lee">
-                                <span>Sallah Leo</span>
+                                <span>Augustus Kargbo</span>
                             </div>
                         </td>
                         <td>Goalkeeper</td>
@@ -1463,7 +1468,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,5" alt="David Kim">
-                                <span>David Kim</span>
+                                <span>Mohamed Buya Turay</span>
                             </div>
                         </td>
                         <td>Winger</td>
@@ -1476,7 +1481,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,6" alt="Emma Brown">
-                                <span>Emmanuel Brown</span>
+                                <span>Juma Bah</span>
                             </div>
                         </td>
                         <td>Forward</td>
@@ -1489,7 +1494,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,7" alt="Ahmed Conteh">
-                                <span>Ahmed Conteh</span>
+                                <span>Emmanuel Samadia</span>
                             </div>
                         </td>
                         <td>Goalkeeper</td>
@@ -1502,7 +1507,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,8" alt="Mariam Bangura">
-                                <span>Mario Bangura</span>
+                                <span>Nathaniel Jalloh</span>
                             </div>
                         </td>
                         <td>Defender</td>
@@ -1515,7 +1520,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,9" alt="Joseph Sesay">
-                                <span>Joseph Sesay</span>
+                                <span>Abu Diaby Dumbuya</span>
                             </div>
                         </td>
                         <td>Midfielder</td>
@@ -1528,7 +1533,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,10" alt="Frank Koroma">
-                                <span>Frank Koroma</span>
+                                <span>Saidu Fofanah</span>
                             </div>
                         </td>
                         <td>Forward</td>
@@ -1541,7 +1546,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,11" alt="Samuel Kamara">
-                                <span>Samuel Kamara</span>
+                                <span>Momoh Kamara</span>
                             </div>
                         </td>
                         <td>Defender</td>
@@ -1554,7 +1559,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,12" alt="Amina Jalloh">
-                                <span>Amadu Jalloh</span>
+                                <span>Samuel Gandi</span>
                             </div>
                         </td>
                         <td>Midfielder</td>
@@ -1567,7 +1572,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,13" alt="Mohamed Fornah">
-                                <span>Mohamed Fornah</span>
+                                <span>Alie Conteh</span>
                             </div>
                         </td>
                         <td>Forward</td>
@@ -1580,7 +1585,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,14" alt="Grace Stevens">
-                                <span>Joe Stevens</span>
+                                <span>Mohamed Bangura</span>
                             </div>
                         </td>
                         <td>Goalkeeper</td>
@@ -1593,7 +1598,7 @@ loading index.html…]()
                         <td>
                             <div class="table-player-info">
                                 <img src="https://source.unsplash.com/random/50x50/?football,player,15" alt="Isabella Tucker">
-                                <span>Bob Tucker</span>
+                                <span>Steven Caulker</span>
                             </div>
                         </td>
                         <td>Midfielder</td>
@@ -1682,9 +1687,9 @@ loading index.html…]()
     <script src="script.js"></script>
 </body>
 </html>
-ploading players.html…]()
 
 ## MATCHES PAGE
+
 
 [Upl<!DOCTYPE html>
 <html lang="en">
@@ -1731,7 +1736,7 @@ ploading players.html…]()
                 <div class="match-teams">
                     <div class="team">
                         <div class="team-logo">
-                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\Squad.jpg" alt="Sierra Leone">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Sierra Leone">
                         </div>
                         <span class="team-name">Sierra Leone</span>
                     </div>
@@ -1741,7 +1746,7 @@ ploading players.html…]()
                     </div>
                     <div class="team">
                         <div class="team-logo">
-                            <img src="https://source.unsplash.com/random/60x60/?nigeria,flag" alt="Nigeria">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\Naijalogo.png" alt="Nigeria">
                         </div>
                         <span class="team-name">Nigeria</span>
                     </div>
@@ -1769,7 +1774,7 @@ ploading players.html…]()
                 <div class="match-teams">
                     <div class="team">
                         <div class="team-logo">
-                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\Squad.jpg" alt="Home Team">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\eastendlogo.jpg" alt="Home Team">
                         </div>
                         <span class="team-name">East End Lions</span>
                     </div>
@@ -1779,7 +1784,7 @@ ploading players.html…]()
                     </div>
                     <div class="team">
                         <div class="team-logo">
-                            <img src="https://source.unsplash.com/random/60x60/?football,club" alt="Away Team">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\rangerslogo.jpg" alt="Away Team">
                         </div>
                         <span class="team-name">Bo Rangers</span>
                     </div>
@@ -1807,7 +1812,7 @@ ploading players.html…]()
                 <div class="match-teams">
                     <div class="team">
                         <div class="team-logo">
-                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\Squad.jpg" alt="Youth Team">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Youth Team">
                         </div>
                         <span class="team-name">SL U-20</span>
                     </div>
@@ -1817,7 +1822,7 @@ ploading players.html…]()
                     </div>
                     <div class="team">
                         <div class="team-logo">
-                            <img src="https://source.unsplash.com/random/60x60/?youth,football" alt="Opponent">
+                            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\ghanalogo.jpg" alt="Opponent">
                         </div>
                         <span class="team-name">Ghana U-20</span>
                     </div>
@@ -1845,27 +1850,27 @@ ploading players.html…]()
         <h2>Recent Results</h2>
         <div class="cards">
             <div class="card">
-                <img src="https://source.unsplash.com/random/400x300/?football,match,1" alt="Match 1">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Match 1">
                 <h3>Sierra Leone vs. Ghana</h3>
-                <p>Date: Dec 5, 2025<br>Result: 2-1 Win<br>Our Player: John Doe scored the winning goal!</p>
+                <p>Date: Dec 5, 2025<br>Result: 2-1 Win<br>Our Player: Buya Turay scored the winning goal!</p>
                 <a href="#" class="btn-small">Watch Highlights</a>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/random/400x300/?football,match,2" alt="Match 2">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Match 2">
                 <h3>Local Derby</h3>
-                <p>Date: Nov 30, 2025<br>Result: 1-1 Draw<br>Our Player: Jane Smith assisted the equalizer.</p>
+                <p>Date: Nov 30, 2025<br>Result: 1-1 Draw<br>Our Player: Kai Kamara assisted the equalizer.</p>
                 <a href="#" class="btn-small">Watch Highlights</a>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/random/400x300/?football,match,3" alt="Match 3">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Match 3">
                 <h3>Championship Final</h3>
-                <p>Date: Nov 25, 2025<br>Result: 3-0 Win<br>Our Player: Mike Johnson was Man of the Match.</p>
+                <p>Date: Nov 25, 2025<br>Result: 3-0 Win<br>Our Player: Mohamed Bangura was Man of the Match.</p>
                 <a href="#" class="btn-small">Watch Highlights</a>
             </div>
             <div class="card">
-                <img src="https://source.unsplash.com/random/400x300/?football,match,4" alt="Match 4">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\logo.png" alt="Match 4">
                 <h3>Friendly Match</h3>
-                <p>Date: Nov 20, 2025<br>Result: 4-2 Win<br>Our Player: Sarah Lee kept a clean sheet.</p>
+                <p>Date: Nov 20, 2025<br>Result: 4-2 Win<br>Our Player: Juma Bah a clean sheet.</p>
                 <a href="#" class="btn-small">Watch Highlights</a>
             </div>
         </div>
@@ -1883,9 +1888,9 @@ ploading players.html…]()
 </html>
 oading matches.html…]()
 
-
 ## ABOUT PAGE
-[Upl<!DOCTYPE html>
+
+[Up<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -1916,7 +1921,7 @@ oading matches.html…]()
 
     <section class="team-photo-section">
         <div class="team-photo">
-            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\Squad.jpg" alt="Football Agency Sierra Leone Team">
+            <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\teamphoto.jpg" alt="Football Agency Sierra Leone Team">
         </div>
 
         <div class="team-info">
@@ -1962,27 +1967,27 @@ oading matches.html…]()
         <h2>Management Team</h2>
         <div class="management-grid">
             <div class="manager-card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\c1.jpg" alt="CEO">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\manager2.jpg" alt="CEO">
                 <div class="manager-card-content">
-                    <h3>John Kamara</h3>
-                    <p>Chief Executive Officer</p>
-                    <p>With over 20 years in football management, John leads our vision to develop African talent globally.</p>
+                    <h3>Mohamed Kallon</h3>
+                    <p>Team Manager</p>
+                    <p>With over 20 years in football management, Mohamed leads our vision to develop African talent globally.</p>
                 </div>
             </div>
 
             <div class="manager-card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\c2.jpg" alt="Coach">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\manager1.jpg" alt="Coach">
                 <div class="manager-card-content">
-                    <h3>David Sesay</h3>
+                    <h3>Abdulai Bangura</h3>
                     <p>Technical Director</p>
                     <p>Former national team coach with extensive experience in talent identification and training.</p>
                 </div>
             </div>
             <div class="manager-card">
-                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\img\c3.jpg" alt="Agent">
+                <img src="c:\Users\USER\OneDrive\Desktop\WEB DESIGN ASSIGNMENT\assets\coach1.jpg" alt="Agent">
                 <div class="manager-card-content">
-                    <h3>Ahmed Bangura</h3>
-                    <p>International Relations Manager</p>
+                    <h3>John Keister</h3>
+                    <p>Coach</p>
                     <p>Manages our global partnerships and transfer negotiations with clubs worldwide.</p>
                 </div>
             </div>
@@ -2001,10 +2006,12 @@ oading matches.html…]()
     <script src="script.js"></script>
 </body>
 </html>
-oading about.html…]()
+loading about.html…]()
 
 ## CONTACT PAGE
-[<!DOCTYPE html>
+
+[contact.html](https://github.com/user-attachments/files/24167112/contact.html)
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -2120,10 +2127,11 @@ oading about.html…]()
     <script src="script.js"></script>
 </body>
 </html>
-Uploading contact.html…]()
 
-## STYLES.CSS
-/* Modern Light Theme Design System */
+
+## STYLING -CSS-
+
+[Uploa/* Modern Light Theme Design System */
 :root {
     --primary-blue: #2563eb;
     --secondary-blue: #1d4ed8;
@@ -3314,11 +3322,12 @@ footer::before {
         grid-template-columns: repeat(2, 1fr);
     }
 }
-[styles.css](https://github.com/user-attachments/files/24106998/styles.css)
+ding styles.css…]()
+
 
 ## JAVA SCRIPT
-[script.js](https://github.com/user-attachments/files/24107008/script.js)
-// Smooth scrolling for navigation links
+
+[Uplo// Smooth scrolling for navigation links
 document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -3822,4 +3831,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+ading script.js…]()
+
 
